@@ -3,5 +3,9 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(euler_review)
+include(CTest)
 
 add_subdirectory(src)
+add_subdirectory(external)
+add_subdirectory(tests)
+
