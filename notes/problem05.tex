@@ -1,0 +1,16 @@
+\chapter{Smallest Multiple}
+\section{Problem Description}
+\begin{tcolorbox}
+$2520$ is the smallest number that can be divided by each of the numbers from $1$ to $10$ without any remainder.
+
+What is the smallest positive number that is evenly divisible by all of the numbers from $1$ to $20$?
+\end{tcolorbox}
+
+\section{解题思路}
+\tcbset{nobeforeafter, tcbox raise base, left=1mm, right=1mm, top=1mm, bottom=1mm}
+\begin{enumerate}
+  \item 可以用\tcbox{std::lcm}函数来求解；
+  \item \tcbox{lcm}可以用两数相乘再除以最小公倍数来实现；
+  \item 最小公倍数可以用辗转相除法来求解。
+
+\end{enumerate}
