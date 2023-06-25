@@ -1,0 +1,21 @@
+%!TeX program = lualatex
+
+\documentclass{ctexbook}
+\usepackage{tcolorbox}
+\usepackage[margin=2cm]{geometry}
+
+\ctexset{
+	section={
+	  format=\Large\bfseries\flushleft,
+	  name={第,节},
+	  number=\Roman{section}
+	 }}
+
+\title{Project Euler Notes}
+\author{dax}
+\date{2023-6-25}
+
+\begin{document}
+\maketitle
+\include{problem01}
+\end{document}
