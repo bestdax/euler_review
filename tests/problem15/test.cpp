@@ -13,3 +13,9 @@ TEST(euler15, combination)
 {
 	EXPECT_EQ(solution.combination(4, 2), 6);
 }
+
+TEST(euler15, dp)
+{
+	EXPECT_EQ(solution.dp(2), 6);
+	EXPECT_EQ(solution.dp(3), 20);
+}
