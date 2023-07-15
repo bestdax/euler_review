@@ -6,9 +6,10 @@ project(euler_review)
 include(cmake/submodule.cmake)
 include(CTest)
 
-include_directories(src/lib)
+include_directories(lib)
 
 add_subdirectory(src)
 add_subdirectory(external)
 add_subdirectory(tests)
+add_subdirectory(lib)
 
